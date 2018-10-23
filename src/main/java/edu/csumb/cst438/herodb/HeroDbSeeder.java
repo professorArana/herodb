@@ -23,7 +23,7 @@ public class HeroDbSeeder implements CommandLineRunner{
         Hero hulk = new Hero(new Identity("Bruce Banner"), new AlterEgo("The Hulk"), new Powers(Arrays.asList("super strength")));
         Hero spiderMan = new Hero(new Identity("Peter Parker"), new AlterEgo("Spider Man"), new Powers(Arrays.asList("super strength","webs","danger sense")));
         //delete db data
-        heroRepo.deleteAll();;
+        heroRepo.deleteAll();
         //add db seeds
         List<Hero> heroes = Arrays.asList(ironMan, hulk, spiderMan);
         heroRepo.saveAll(heroes);
