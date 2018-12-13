@@ -1,4 +1,4 @@
-package edu.csumb.cst438.herodb.entities;
+package mil.osd.dmdc.herodb.entities;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

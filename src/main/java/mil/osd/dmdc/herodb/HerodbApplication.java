@@ -1,4 +1,4 @@
-package edu.csumb.cst438.herodb;
+package mil.osd.dmdc.herodb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
