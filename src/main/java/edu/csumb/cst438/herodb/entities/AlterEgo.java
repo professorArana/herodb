@@ -1,9 +1,9 @@
-package mil.osd.dmdc.herodb.entities;
+package edu.csumb.cst438.herodb.entities;
 
-public class Identity {
+public class AlterEgo {
     private String name;
 
-    public Identity (String name){
+    public AlterEgo (String name) {
         this.name = name;
     }
 

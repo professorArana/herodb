@@ -1,4 +1,4 @@
-package mil.osd.dmdc.herodb;
+package edu.csumb.cst438.herodb;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import mil.osd.dmdc.herodb.entities.Hero;
+import edu.csumb.cst438.herodb.entities.Hero;
 
 @Repository
 public interface IHeroRepository extends MongoRepository<Hero, String> {

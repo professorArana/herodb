@@ -1,4 +1,4 @@
-package mil.osd.dmdc.herodb;
+package edu.csumb.cst438.herodb;
 
 import java.util.Arrays;
 import java.util.List;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import mil.osd.dmdc.herodb.entities.AlterEgo;
-import mil.osd.dmdc.herodb.entities.Hero;
-import mil.osd.dmdc.herodb.entities.Identity;
-import mil.osd.dmdc.herodb.entities.Powers;
+import edu.csumb.cst438.herodb.entities.AlterEgo;
+import edu.csumb.cst438.herodb.entities.Hero;
+import edu.csumb.cst438.herodb.entities.Identity;
+import edu.csumb.cst438.herodb.entities.Powers;
 
 @Component
 public class HeroDbSeeder implements CommandLineRunner{

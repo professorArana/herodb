@@ -1,4 +1,4 @@
-package mil.osd.dmdc.herodb;
+package edu.csumb.cst438.herodb;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import mil.osd.dmdc.herodb.entities.Hero;
+import edu.csumb.cst438.herodb.entities.Hero;
 
 @RestController
 public class HeroController {

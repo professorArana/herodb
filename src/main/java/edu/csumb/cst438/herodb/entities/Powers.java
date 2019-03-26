@@ -1,4 +1,4 @@
-package mil.osd.dmdc.herodb.entities;
+package edu.csumb.cst438.herodb.entities;
 
 import java.util.List;
 
