@@ -1,4 +1,4 @@
-package edu.csumb.cst438.herodb;
+package edu.csumb.cst438.herodb.api;
 
 import java.util.Arrays;
 import java.util.List;
@@ -47,10 +47,8 @@ public class HeroController {
         headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
         headers.add("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36");
         HttpEntity<String> entity = new HttpEntity<String>("parameters", headers);
-
-
-        ResponseEntity<String> response = myTemplate.exchange(resourceUrl, HttpMethod.GET, entity, String.class);
-        return response.getBody();
+        ResponseEntity<Hero> response = myTemplate.exchange(resourceUrl, HttpMethod.GET, entity, Hero.class);
+        return response.toString();
         //return "hello"; 
     }
 	
